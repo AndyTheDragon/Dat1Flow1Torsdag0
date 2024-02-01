@@ -6,6 +6,9 @@ int circleSize;
 int numberOfCircles;
 int counter = 0;
 int rowCounter = 0;
+int red = 30;
+int green = 130;
+int blue = 255;
 
 void setup(){
    size(400,400);
@@ -13,6 +16,9 @@ void setup(){
    numberOfCircles = 30;
    circleSize = width/numberOfCircles;
    ellipseMode(CORNER);
+   red = 255;
+   green = 255;
+   blue = 255;
   
 }
 void draw(){
